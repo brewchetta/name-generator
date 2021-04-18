@@ -1,4 +1,3 @@
-import { generateName } from '../name-lists/name-generator'
 import * as demonic from '../name-lists/demonic'
 import Name from './Name'
 
