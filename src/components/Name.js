@@ -10,6 +10,6 @@ export default function Name({prefixes, suffixes}) {
   }
 
   return (
-    <p>{name}</p>
+    <p onClick={handleClick}>{name}</p>
   )
 }
