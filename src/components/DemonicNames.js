@@ -11,6 +11,7 @@ export default function DemonicNames(props) {
       <Name prefixes={demonic.prefixes} suffixes={demonic.suffixes} />
       <Name prefixes={demonic.prefixes} suffixes={demonic.suffixes} />
       <Name prefixes={demonic.prefixes} suffixes={demonic.suffixes} />
+      <Name prefixes={demonic.prefixes} suffixes={demonic.suffixes} />
 
     </div>
   )
