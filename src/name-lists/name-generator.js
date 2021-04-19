@@ -9,3 +9,9 @@ export const generateName = (prefixes, suffixes) => {
   }
   return capitalize(name)
 }
+
+export const chooseRandomName = (names) => names[randomNumber(names.length)]
+
+export const generateFirstAndLastName = (prefixGenerator, suffixGenerator) => {
+  return capitalize(prefixGenerator()) + " " + capitalize(suffixGenerator())
+}

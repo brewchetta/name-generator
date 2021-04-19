@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Navbar from './Navbar'
 import DemonicNames from './DemonicNames'
+import CelticNames from './CelticNames'
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Switch>
 
           <Route path="/demonic" render={() => <DemonicNames />} />
+          <Route path="/celtic" render={() => <CelticNames />} />
 
         </Switch>
       </BrowserRouter>

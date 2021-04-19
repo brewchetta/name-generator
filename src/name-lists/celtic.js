@@ -1,4 +1,4 @@
-export const names = [
+export const prefixes = [
   "aidan",
   "allen",
   "bowen",
@@ -189,7 +189,7 @@ export const names = [
   "quade",
   "regan",
   "reily",
-  "rhienne"
+  "rhienne",
   "rhyland",
   "rianna",
   "riannon",
