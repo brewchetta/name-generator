@@ -1,0 +1,41 @@
+prefixes = [
+  "bula",
+  "chara"
+  "cera",
+  "din",
+  "dram",
+  "drom",
+  "ink",
+  "laz",
+  "liz",
+  "nect",
+  "noct",
+  "octo",
+  "quad",
+  "quasa",
+  "queez",
+  "sala",
+  "siz",
+  "squi",
+  "zoid"
+]
+
+suffixes = [
+  "din",
+  "ink",
+  "ite",
+  "izzle",
+  "mander",
+  "pus",
+  "tite",
+  "toise",
+  "val",
+  "var",
+  "vard",
+  "vark",
+  "zard",
+  "zine",
+  "zizzle",
+  "zoid",
+  "zonk",
+]
