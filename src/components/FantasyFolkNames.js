@@ -3,7 +3,7 @@ import * as fantasyFolk from '../name-lists/fantasy-folk-surnames'
 import { generateName } from '../name-lists/name-generator'
 import Name from './Name'
 
-export default function DemonicNames({numNames}) {
+export default function FantasyFolksNames({numNames}) {
 
   numNames = numNames || 1
 

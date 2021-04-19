@@ -5,6 +5,7 @@ export default function Navbar() {
     <div>
 
       <Link to="/mix-n-match">Mix and Match</Link>
+      <Link to="/adjectives">Adjectives</Link>
       <Link to="/demonic">Demonic</Link>
       <Link to="/sci-fi-animal">Sci Fi Animal</Link>
       <Link to="/celtic">Celtic</Link>

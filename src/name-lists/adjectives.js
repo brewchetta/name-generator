@@ -1,11 +1,11 @@
-const adjectives = [
+export const list = [
   "adorable",
   "angry",
   "beautiful",
   "berserk",
   "blind",
   "bound",
-  "careful"
+  "careful",
   "combative",
   "corpulent",
   "courageous",

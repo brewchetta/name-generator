@@ -1,15 +1,15 @@
-import * as celtic from '../name-lists/celtic'
+import * as adjectives from '../name-lists/adjectives'
 import { chooseRandomName } from '../name-lists/name-generator'
 import Name from './Name'
 
-export default function CelticNames({numNames}) {
+export default function Adjectives({numNames}) {
 
   numNames = numNames || 1
 
   const renderNames = () => {
     const arr = []
     for (let i = 0; i < numNames; i++) {
-      arr.push(<Name prefixes={celtic.prefixes} nameGenerator={chooseRandomName} />)
+      arr.push(<Name prefixes={adjectives.list} nameGenerator={chooseRandomName} />)
     }
     return arr
   }

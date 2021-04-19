@@ -4,6 +4,7 @@ import DemonicNames from './DemonicNames'
 import SciFiAnimalNames from './SciFiAnimalNames'
 import CelticNames from './CelticNames'
 import FantasyFolkNames from './FantasyFolkNames'
+import Adjectives from './Adjectives'
 import MixAndMatch from './MixAndMatch'
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Switch>
 
           <Route path="/mix-n-match" render={() => <MixAndMatch />} />
+          <Route path="/adjectives" render={() => <Adjectives numNames={6} />} />
           <Route path="/sci-fi-animal" render={() => <SciFiAnimalNames numNames={6} />} />
           <Route path="/demonic" render={() => <DemonicNames numNames={6} />} />
           <Route path="/celtic" render={() => <CelticNames numNames={6} />} />
