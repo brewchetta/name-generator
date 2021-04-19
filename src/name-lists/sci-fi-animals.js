@@ -1,7 +1,8 @@
 export const prefixes = [
   "bula",
   "cara",
-  "char"
+  "char",
+  "ceph",
   "cera",
   "din",
   "dram",
@@ -31,6 +32,7 @@ export const prefixes = [
 
 export const suffixes = [
   "adon",
+  "alo",
   "din",
   "fid",
   "ink",
