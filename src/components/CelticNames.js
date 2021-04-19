@@ -15,7 +15,7 @@ export default function DemonicNames({numNames}) {
   }
 
   return (
-    <div id="name-list">
+    <div className={numNames > 1 ? "name-list" : "name"}>
 
       {renderNames()}
 
