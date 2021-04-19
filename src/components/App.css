@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.name-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 #mix-and-match {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
