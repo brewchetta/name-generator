@@ -4,7 +4,7 @@ import Name from './Name'
 export default function DemonicNames(props) {
 
   return (
-    <div>
+    <div id="name-list">
 
       <Name prefixes={demonic.prefixes} suffixes={demonic.suffixes} />
       <Name prefixes={demonic.prefixes} suffixes={demonic.suffixes} />
