@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import { generateName } from '../name-lists/name-generator'
 
-export default function Name({prefixes, suffixes}) {
+export default function Name({prefixes, suffixes, nameGenerator}) {
 
-  const [name, setName] = useState(generateName(prefixes, suffixes))
+  const [name, setName] = useState(nameGenerator(prefixes, suffixes))
 
   const handleClick = () => {
-    setName(generateName(prefixes, suffixes))
+    setName(nameGenerator(prefixes, suffixes))
   }
 
   return (
