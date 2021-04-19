@@ -3,6 +3,7 @@ import CelticNames from './CelticNames'
 import DemonicNames from './DemonicNames'
 import FantasyFolkNames from './FantasyFolkNames'
 import SciFiAnimalNames from './SciFiAnimalNames'
+import Adjectives from './Adjectives'
 
 export default function NameSelector() {
 
@@ -22,6 +23,8 @@ export default function NameSelector() {
         return <FantasyFolkNames />
       case "SciFiAnimalNames":
         return <SciFiAnimalNames />
+      case "Adjectives":
+        return <Adjectives />
       default:
         return null
     }
@@ -33,6 +36,7 @@ export default function NameSelector() {
       <select onChange={handleChange} value={nameType}>
 
         <option value="">---</option>
+        <option value="Adjectives">Adjectives</option>
         <option value="CelticNames">Celtic Names</option>
         <option value="DemonicNames">Demonic Names</option>
         <option value="FantasyFolkNames">Fantasy Folk Names</option>
