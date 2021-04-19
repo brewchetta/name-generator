@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-#name-list {
+#mix-and-match {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
