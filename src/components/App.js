@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import DemonicNames from './DemonicNames'
 import CelticNames from './CelticNames'
 import FantasyFolkNames from './FantasyFolkNames'
-import NameSelector from './NameSelector'
+import MixAndMatch from './MixAndMatch'
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
         <Switch>
 
-          <Route path="/mix-n-match" render={() => <NameSelector />} />
+          <Route path="/mix-n-match" render={() => <MixAndMatch />} />
           <Route path="/demonic" render={() => <DemonicNames />} />
           <Route path="/celtic" render={() => <CelticNames />} />
           <Route path="/fantasy-folk" render={() => <FantasyFolkNames />} />
