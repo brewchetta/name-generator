@@ -53,6 +53,7 @@ export const suffixes = [
   "vark",
   "void",
   "zard",
+  "zerk",
   "zine",
   "zizzle",
   "zoid",
