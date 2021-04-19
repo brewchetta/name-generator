@@ -2,6 +2,7 @@ import { useState } from 'react'
 import CelticNames from './CelticNames'
 import DemonicNames from './DemonicNames'
 import FantasyFolkNames from './FantasyFolkNames'
+import SciFiAnimalNames from './SciFiAnimalNames'
 
 export default function NameSelector() {
 
@@ -19,6 +20,8 @@ export default function NameSelector() {
         return <DemonicNames />
       case "FantasyFolkNames":
         return <FantasyFolkNames />
+      case "SciFiAnimalNames":
+        return <SciFiAnimalNames />
       default:
         return null
     }
@@ -33,6 +36,7 @@ export default function NameSelector() {
         <option value="CelticNames">Celtic Names</option>
         <option value="DemonicNames">Demonic Names</option>
         <option value="FantasyFolkNames">Fantasy Folk Names</option>
+        <option value="SciFiAnimalNames">Sci-Fi Animal Names</option>
 
       </select>
 
