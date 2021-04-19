@@ -6,6 +6,7 @@ export default function Navbar() {
 
       <Link to="/demonic">Demonic</Link>
       <Link to="/celtic">Celtic</Link>
+      <Link to="/fantasy-folk">Fantasy Folk</Link>
 
     </div>
   )
