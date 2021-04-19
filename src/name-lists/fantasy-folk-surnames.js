@@ -19,9 +19,18 @@ export const prefixes = [
   "cold",
   "peak",
   "slow",
-  "mare",
+  "mar",
   "swallow",
-  "strong"
+  "strong",
+  "white",
+  "black",
+  "mud",
+  "sharp",
+  "happy",
+  "deep",
+  "long",
+  "fog",
+  "bale"
 ]
 
 export const suffixes = [
@@ -46,5 +55,20 @@ export const suffixes = [
   "stride",
   "hollow",
   "mind",
-  "bird"
+  "bird",
+  "smith",
+  "sword",
+  "hammer",
+  "bow",
+  "sound",
+  "ear",
+  "grave",
+  "arm",
+  "boat",
+  "ship",
+  "shine",
+  "peak",
+  "horse",
+  "bird",
+  "bottom"
 ]
