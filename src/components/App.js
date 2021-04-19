@@ -16,9 +16,9 @@ function App() {
         <Switch>
 
           <Route path="/mix-n-match" render={() => <MixAndMatch />} />
-          <Route path="/demonic" render={() => <DemonicNames />} />
-          <Route path="/celtic" render={() => <CelticNames />} />
-          <Route path="/fantasy-folk" render={() => <FantasyFolkNames />} />
+          <Route path="/demonic" render={() => <DemonicNames numNames={6} />} />
+          <Route path="/celtic" render={() => <CelticNames numNames={6} />} />
+          <Route path="/fantasy-folk" render={() => <FantasyFolkNames numNames={6} />} />
 
         </Switch>
       </BrowserRouter>
