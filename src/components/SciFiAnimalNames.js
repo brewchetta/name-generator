@@ -6,10 +6,12 @@ export default function DemonicNames({numNames}) {
 
   numNames = numNames || 1
 
+  const generateAnimalName = (prefixes, suffixes) => generateName(prefixes, suffixes, 1)
+
   const renderNames = () => {
     const arr = []
     for (let i = 0; i < numNames; i++) {
-      arr.push(<Name prefixes={sciFiAnimals.prefixes} suffixes={sciFiAnimals.suffixes} nameGenerator={generateName} />)
+      arr.push(<Name prefixes={sciFiAnimals.prefixes} suffixes={sciFiAnimals.suffixes} nameGenerator={generateAnimalName} />)
     }
     return arr
   }
